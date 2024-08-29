@@ -1,16 +1,16 @@
 server:
   port: 9000
-  servlet:
-    context-path: /beta
+  # servlet:
+  #   context-path: /beta
 
 spring:
   application:
     name: fhwu-beta
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://121.37.218.253:3306/bookkeeping?useSSL=false&serverTimezone=UTC
-    username: fhwu
-    password: Fhwu@27920
+    url: jdbc:mysql://loalhost:3306/bookkeeping?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
 
 # mybatis-plus 配置
 mybatis-plus:
