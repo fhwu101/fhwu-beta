@@ -5,10 +5,10 @@ server:
 
 spring:
   application:
-    name: fhwu-beta
+    name: fhwu-betac
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://loalhost:3306/bookkeeping?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/bookkeeping?useSSL=false&serverTimezone=UTC
     username: root
     password: root
 
